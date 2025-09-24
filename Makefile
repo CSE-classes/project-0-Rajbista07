@@ -162,7 +162,7 @@ UPROGS=\
 	_proj0\
 	_forktest\
 	_grep\
-	_init\
+        _init\
 	_kill\
 	_ln\
 	_ls\
@@ -173,6 +173,7 @@ UPROGS=\
 	_usertests\
 	_wc\
 	_zombie\
+	_proj0\
 
 fs.img: mkfs README $(UPROGS)
 	./mkfs fs.img README $(UPROGS)
